@@ -1,4 +1,4 @@
-import { Task, CreateTaskDto, UpdateTaskDto } from '../types/Task';
+import type { Task, CreateTaskDto, UpdateTaskDto } from '../types/Task';
 
 const API_URL = 'http://localhost:3001/api';
 

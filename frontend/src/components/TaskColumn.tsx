@@ -1,5 +1,5 @@
 import React from 'react';
-import { Task } from '../types/Task';
+import type { Task } from '../types/Task';
 import { TaskCard } from './TaskCard';
 
 interface TaskColumnProps {

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Task, CreateTaskDto } from './types/Task';
+import { useState, useEffect } from 'react';
+import type { Task, CreateTaskDto } from './types/Task';
 import { taskApi } from './services/api';
 import { useWebSocket } from './hooks/useWebSocket';
 import { TaskColumn } from './components/TaskColumn';
