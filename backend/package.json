@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "test": "echo \"Tests will be added later\" && exit 0"
+  },
+  "keywords": [
+    "taskboard",
+    "websocket",
+    "express"
+  ],
+  "author": "AI Copilot",
+  "license": "GPL-2.0",
+  "description": "Real-time collaborative task board backend",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.1",
+    "@types/ws": "^8.18.1",
+    "eslint": "^9.39.1",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
