@@ -439,13 +439,14 @@ class CECLexer:
                 pos = self.pos
                 self.advance()
                 self.temporal_offset += 1
-                token = Token(TokenType.NEWLINE, "\\n", pos, 0.0, self.temporal_offset)
+                token = Token(TokenType.NEWLINE, "\n", pos, 0.0, self.temporal_offset)
                 self.apply_emotional_contagion(token)
                 yield token
                 continue
             
             # Check for 4 spaces (temporal tab - shift dimension)
-            if (self.peek(0) == ' ' and self.peek(1) == ' ' and 
+            if (self.pos + 3 < len(self.source) and
+                self.peek(0) == ' ' and self.peek(1) == ' ' and 
                 self.peek(2) == ' ' and self.peek(3) == ' '):
                 pos = self.pos
                 for _ in range(4):
