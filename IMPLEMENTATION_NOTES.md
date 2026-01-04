@@ -562,5 +562,3 @@ cec --reverse-order      # Show reversed execution order
 ---
 
 **Implementation Note**: This is a specification for a bizarre esoteric language. Implementing all features may cause temporal paradoxes, emotional overflow, or spontaneous quantum entanglement. Proceed with appropriate caution and a sense of humor.
-
-**License**: Public Domain - The void claims no ownership

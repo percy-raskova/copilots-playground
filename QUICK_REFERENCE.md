@@ -58,7 +58,7 @@
 | Imaginary | `42i` |
 | Complex | `3+4i` |
 | String | `💬Hello💬` |
-| Quantum State | `⟨1\|2\|3⟩` |
+| Quantum State | `⟨1|2|3⟩` |
 | Void | `🕳️` |
 
 ## Control Flow
@@ -90,7 +90,7 @@
 
 | Operation | Example |
 |-----------|---------|
-| Create superposition | `🔮 x ⟺ ⟨1\|2\|3⟩ 🔮` |
+| Create superposition | `🔮 x ⟺ ⟨1|2|3⟩ 🔮` |
 | Collapse state | `🎲 x ⟸ x 🎲` |
 
 ## Functions
